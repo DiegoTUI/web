@@ -129,13 +129,19 @@
     <div class="top"></div>
     <div class="pad">
        <div id="searchtitle"></div>
-       <form method="post" action="Hotels.ioio" name="searchbox">
+	   
+<form action="/api/new_element.php" method="get"> 
+field1: <input name="field1" type="text" /> </br>
+field2: <input name="field2" type="text" /> </br>
+<input type="submit" />
+</form>
+ <!--       <form method="post" action="Hotels.ioio" name="searchbox">
         <ul>
             <li>
                 <label for="txtSearch" class="desc">Enter your destination</label>
 				<input type="text" title="Hotel, attraction, postcode" class="txt topbox" autocomplete="off" id="txtSearch" name="k" value="Hotel, attraction, postcode"/>
             </li>
- <!--           <li>
+           <li>
                 <label for="date" class="desc">Arrival date</label>
                 <select class="txt calendar" id="date" name="d"></select>
             </li>
@@ -183,11 +189,11 @@
 </select>
 </div>
 <div class="cl"></div>
-<input type="hidden" name="rt" id="rt" value="1-0"/>-->
+<input type="hidden" name="rt" id="rt" value="1-0"/>
             </li>
             <li class="txtrgt"><input id="search" value="do" type="submit"/></li>
         </ul>
-        </form>
+        </form>-->
     </div>
     <!--<div class="bot"></div>-->
 </div>
