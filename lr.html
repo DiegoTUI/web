@@ -2,7 +2,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml">
 <head>
-<!--<base href="http://www.laterooms.com/en/"/>-->
+<base href="http://www.laterooms.com/en/"/>
 <title>
   Late Rooms-Cheap Hotels, Discount Hotels & Last Minute Hotels Deals. Make Hotel Reservations & Book Hotels with Hotel Offers.
 </title>
@@ -28,15 +28,15 @@
   
 	
 	
-<link href="http://www.laterooms.com/CombinedAssets/FB6E853AEEA86EB5A24CA108AEFEC855.css" rel="stylesheet" />
-<link href="http://www.laterooms.com/CombinedAssets/0661EFDF5A822F3BA4F5129F446B6CBB.css" rel="stylesheet" />
-<link href="http://www.laterooms.com/CombinedAssets/989DABE8D5854C898D7D2D8F74509F02.css" rel="stylesheet" />
-<link href="http://www.laterooms.com/CombinedAssets/D41D8CD98F00B204E9800998ECF8427E.css" rel="stylesheet" />
+<link href="/CombinedAssets/FB6E853AEEA86EB5A24CA108AEFEC855.css" rel="stylesheet" />
+<link href="/CombinedAssets/0661EFDF5A822F3BA4F5129F446B6CBB.css" rel="stylesheet" />
+<link href="/CombinedAssets/989DABE8D5854C898D7D2D8F74509F02.css" rel="stylesheet" />
+<link href="/CombinedAssets/D41D8CD98F00B204E9800998ECF8427E.css" rel="stylesheet" />
 
 
 	
 <!-- Maxymiser script start -->
-<script type="text/javascript" src="http://www.laterooms.com/Script/Maxymiser/mmcore.js?ver=84273_9794"></script>
+<script type="text/javascript" src="/Script/Maxymiser/mmcore.js?ver=84273_9794"></script>
 
 <script type="text/javascript">
 	try {
@@ -48,9 +48,14 @@
 <!-- Maxymiser script end -->
 
 	<script type="text/javascript">var applicationPath = '/'</script>
+<script type="text/javascript" src="/Script/TeaLeaf/TealeafSDKConfig.js"></script>
+<script type="text/javascript" src="/Script/TeaLeaf/TealeafSDK.js"></script>
 
-		   <script type="text/javascript" src="http://www.laterooms.com/assets/js/mootools/mootools-core-1.4.5-full-compat-yc.js?ver=84273_9794"></script>
-		   <script type="text/javascript" src="http://www.laterooms.com/assets/js/mootools/mootools-more-1.4.0.1-compat-yc.js?ver=84273_9794"></script>
+    
+
+
+		   <script type="text/javascript" src="/assets/js/mootools/mootools-core-1.4.5-full-compat-yc.js?ver=84273_9794"></script>
+		   <script type="text/javascript" src="/assets/js/mootools/mootools-more-1.4.0.1-compat-yc.js?ver=84273_9794"></script>
 <!--If you're changing the versions, also edit main.aspx-->
   <script type="text/javascript" src="http://images.laterooms.com/hotel-brands/_lrhomepage/brands.en.js"></script>
 	<meta name="verify-v1" content="Mh1COViVJym1UxmSlkyd8h2wiKlP/mifNR0JKyE4Ppo="/>
@@ -64,8 +69,10 @@
     <META NAME="WT.si_n" CONTENT="Main Booking Process"/>
     <META NAME="WT.si_x" CONTENT="1"/>
 
-	<script type="text/javascript" src="http://www.laterooms.com/Script/scripts2/shared/userprofile.js?84273_9794"></script>
+	<script type="text/javascript" src="/Script/scripts2/shared/userprofile.js?84273_9794"></script>
 	
+  <script src='//d3c3cq33003psk.cloudfront.net/opentag-40183-104882.js' async defer></script>
+
 <script type="text/javascript">
 
     var _gaq = _gaq || [];
@@ -83,7 +90,7 @@
   <!-- START OF SmartSource Data Collector TAG v10.2.0 -->
   <!-- Copyright (c) 2012 Webtrends Inc.  All rights reserved. -->
     <script>_tag={exRates:{},siteCurrencies:{}};</script>
-  <script src="http://www.laterooms.com/Script/webtrends/async/webtrendsMC_config.js" type="text/javascript"></script>
+  <script src="/Script/webtrends/async/webtrendsMC_config.js" type="text/javascript"></script>
   <script>
       window.webtrendsAsyncInit=function(){
       var dcs=new Webtrends.dcs().init({
@@ -116,7 +123,7 @@
 		<div id="container">
 <div id="header"> 
 	<div id="strapline"></div>
-        <img id="lr-logo-right" src="http://www.laterooms.com/assets/images/global/layout/header-skyline.png" alt='Cheap Hotels at LateRooms'/>
+        <img id="lr-logo-right" src="/assets/images/global/layout/header-skyline.png" alt='Cheap Hotels at LateRooms'/>
 </div>
       
 <div id="content">
@@ -126,20 +133,14 @@
 <div id="find" class="grid_x">
     <div class="top"></div>
     <div class="pad">
-       <div id="searchtitle"></div>
-	   
-<form action="/api/new_element.php" method="get"> 
-field1: <input name="field1" type="text" /> </br>
-field2: <input name="field2" type="text" /> </br>
-<input type="submit" />
-</form>
- <!--       <form method="post" action="Hotels.ioio" name="searchbox">
+        <div id="searchtitle"></div>
+        <form method="post" action="Hotels.aspx" name="searchbox">
         <ul>
             <li>
                 <label for="txtSearch" class="desc">Enter your destination</label>
 				<input type="text" title="Hotel, attraction, postcode" class="txt topbox" autocomplete="off" id="txtSearch" name="k" value="Hotel, attraction, postcode"/>
             </li>
-           <li>
+            <li>
                 <label for="date" class="desc">Arrival date</label>
                 <select class="txt calendar" id="date" name="d"></select>
             </li>
@@ -191,9 +192,9 @@ field2: <input name="field2" type="text" /> </br>
             </li>
             <li class="txtrgt"><input id="search" value="do" type="submit"/></li>
         </ul>
-        </form>-->
+        </form>
     </div>
-    <!--<div class="bot"></div>-->
+    <div class="bot"></div>
 </div>
 <div id="teaser" class="grid_x">
 	<div class="mar">
@@ -316,53 +317,11 @@ field2: <input name="field2" type="text" /> </br>
 			<div class="title"><img alt="" src="http://images.laterooms.com/dizzy/homepage/270509/en/weathertitle.gif"/></div>       
 			<table cellspacing="0" cellpadding="0">
 				<tr>
-					<td><a rel="nofollow" href="k15795943_palma-hotels.aspx" class="non">Palma</a></td>
-					<td width="35" class="deg"><img alt="" title="Patchy Rain" src="http://images.laterooms.com/NEWHOMPAGE/images/weather/scatrain.gif"/></td>
-					<td class="deg">10&deg;C</td>
-					<td class="deg"><small>72 Hotels</small></td>
-					<td style="text-align: right;"><small>doubles from</small> <a rel="nofollow" href="hotel-reservations/226624_hostal-pinar-palma-de-mallorca.aspx" class="pr"><strong>£38.66</strong></a></td>
-				</tr>
-				<tr>
-					<td><a rel="nofollow" href="k16281408_brighton-hotels.aspx" class="non">Brighton</a></td>
-					<td width="35" class="deg"><img alt="" title="Cloudy with outbreaks of Rain" src="http://images.laterooms.com/NEWHOMPAGE/images/weather/rain.gif"/></td>
-					<td class="deg">4&deg;C</td>
-					<td class="deg"><small>133 Hotels</small></td>
-					<td style="text-align: right;"><small>doubles from</small> <a rel="nofollow" href="hotel-reservations/13255_preston-park-hotel-brighton.aspx" class="pr"><strong>£36.00</strong></a></td>
-				</tr>
-				<tr>
-					<td><a rel="nofollow" href="k13197545_hong-kong-hotels.aspx" class="non">Hong Kong</a></td>
-					<td width="35" class="deg"><img alt="" title="Overcast" src="http://images.laterooms.com/NEWHOMPAGE/images/weather/cloudy.gif"/></td>
-					<td class="deg">24&deg;C</td>
-					<td class="deg"><small>159 Hotels</small></td>
-					<td style="text-align: right;"><small>doubles from</small> <a rel="nofollow" href="hotel-reservations/197809_paris-guest-house-hong-kong.aspx" class="pr"><strong>£34.81</strong></a></td>
-				</tr>
-				<tr>
 					<td><a rel="nofollow" href="k11101574_dubai-hotels.aspx" class="non">Dubai</a></td>
 					<td width="35" class="deg"><img alt="" title="Clear" src="http://images.laterooms.com/NEWHOMPAGE/images/weather/clr.gif"/></td>
 					<td class="deg">27&deg;C</td>
 					<td class="deg"><small>305 Hotels</small></td>
 					<td style="text-align: right;"><small>doubles from</small> <a rel="nofollow" href="hotel-reservations/179467_nihal-dubai.aspx" class="pr"><strong>£46.84</strong></a></td>
-				</tr>
-				<tr>
-					<td><a rel="nofollow" href="k16837028_dublin-hotels.aspx" class="non">Dublin</a></td>
-					<td width="35" class="deg"><img alt="" title="Sunny Spells" src="http://images.laterooms.com/NEWHOMPAGE/images/weather/mscloudy.gif"/></td>
-					<td class="deg">7&deg;C</td>
-					<td class="deg"><small>186 Hotels</small></td>
-					<td style="text-align: right;"><small>doubles from</small> <a rel="nofollow" href="hotel-reservations/256691_marilyn-mansion-dublin.aspx" class="pr"><strong>£24.91</strong></a></td>
-				</tr>
-				<tr>
-					<td><a rel="nofollow" href="k16296355_manchester-hotels.aspx" class="non">Manchester</a></td>
-					<td width="35" class="deg"><img alt="" title="Cloudy with outbreaks of Rain" src="http://images.laterooms.com/NEWHOMPAGE/images/weather/rain.gif"/></td>
-					<td class="deg">6&deg;C</td>
-					<td class="deg"><small>120 Hotels</small></td>
-					<td style="text-align: right;"><small>doubles from</small> <a rel="nofollow" href="hotel-reservations/2511_old-trafford-lodge-manchester.aspx" class="pr"><strong>£34.00</strong></a></td>
-				</tr>
-				<tr>
-					<td><a rel="nofollow" href="k16298328_newquay-hotels.aspx" class="non">Newquay</a></td>
-					<td width="35" class="deg"><img alt="" title="Patchy Rain" src="http://images.laterooms.com/NEWHOMPAGE/images/weather/scatrain.gif"/></td>
-					<td class="deg">11&deg;C</td>
-					<td class="deg"><small>165 Hotels</small></td>
-					<td style="text-align: right;"><small>doubles from</small> <a rel="nofollow" href="hotel-reservations/254648_auberge-asterisk-st-austell.aspx" class="pr"><strong>£40.00</strong></a></td>
 				</tr>
 				<tr>
 					<td><a rel="nofollow" href="k13652155_milan-hotels.aspx" class="non">Milan</a></td>
@@ -372,11 +331,53 @@ field2: <input name="field2" type="text" /> </br>
 					<td style="text-align: right;"><small>doubles from</small> <a rel="nofollow" href="hotel-reservations/222099_hotel-ambra-milano.aspx" class="pr"><strong>£34.36</strong></a></td>
 				</tr>
 				<tr>
+					<td><a rel="nofollow" href="k13197545_hong-kong-hotels.aspx" class="non">Hong Kong</a></td>
+					<td width="35" class="deg"><img alt="" title="Overcast" src="http://images.laterooms.com/NEWHOMPAGE/images/weather/cloudy.gif"/></td>
+					<td class="deg">24&deg;C</td>
+					<td class="deg"><small>159 Hotels</small></td>
+					<td style="text-align: right;"><small>doubles from</small> <a rel="nofollow" href="hotel-reservations/197809_paris-guest-house-hong-kong.aspx" class="pr"><strong>£34.81</strong></a></td>
+				</tr>
+				<tr>
+					<td><a rel="nofollow" href="k15795943_palma-hotels.aspx" class="non">Palma</a></td>
+					<td width="35" class="deg"><img alt="" title="Patchy Rain" src="http://images.laterooms.com/NEWHOMPAGE/images/weather/scatrain.gif"/></td>
+					<td class="deg">10&deg;C</td>
+					<td class="deg"><small>72 Hotels</small></td>
+					<td style="text-align: right;"><small>doubles from</small> <a rel="nofollow" href="hotel-reservations/226624_hostal-pinar-palma-de-mallorca.aspx" class="pr"><strong>£38.66</strong></a></td>
+				</tr>
+				<tr>
+					<td><a rel="nofollow" href="k16296355_manchester-hotels.aspx" class="non">Manchester</a></td>
+					<td width="35" class="deg"><img alt="" title="Cloudy with outbreaks of Rain" src="http://images.laterooms.com/NEWHOMPAGE/images/weather/rain.gif"/></td>
+					<td class="deg">6&deg;C</td>
+					<td class="deg"><small>120 Hotels</small></td>
+					<td style="text-align: right;"><small>doubles from</small> <a rel="nofollow" href="hotel-reservations/2511_old-trafford-lodge-manchester.aspx" class="pr"><strong>£34.00</strong></a></td>
+				</tr>
+				<tr>
+					<td><a rel="nofollow" href="k16837028_dublin-hotels.aspx" class="non">Dublin</a></td>
+					<td width="35" class="deg"><img alt="" title="Sunny Spells" src="http://images.laterooms.com/NEWHOMPAGE/images/weather/mscloudy.gif"/></td>
+					<td class="deg">7&deg;C</td>
+					<td class="deg"><small>186 Hotels</small></td>
+					<td style="text-align: right;"><small>doubles from</small> <a rel="nofollow" href="hotel-reservations/256691_marilyn-mansion-dublin.aspx" class="pr"><strong>£24.91</strong></a></td>
+				</tr>
+				<tr>
 					<td><a rel="nofollow" href="k12560938_cairo-hotels.aspx" class="non">Cairo</a></td>
 					<td width="35" class="deg"><img alt="" title="Clear" src="http://images.laterooms.com/NEWHOMPAGE/images/weather/clr.gif"/></td>
 					<td class="deg">26&deg;C</td>
 					<td class="deg"><small>42 Hotels</small></td>
 					<td style="text-align: right;"><small>doubles from</small> <a rel="nofollow" href="hotel-reservations/202570_isis-hotel-cairo.aspx" class="pr"><strong>£17.18</strong></a></td>
+				</tr>
+				<tr>
+					<td><a rel="nofollow" href="k16281408_brighton-hotels.aspx" class="non">Brighton</a></td>
+					<td width="35" class="deg"><img alt="" title="Cloudy with outbreaks of Rain" src="http://images.laterooms.com/NEWHOMPAGE/images/weather/rain.gif"/></td>
+					<td class="deg">4&deg;C</td>
+					<td class="deg"><small>133 Hotels</small></td>
+					<td style="text-align: right;"><small>doubles from</small> <a rel="nofollow" href="hotel-reservations/13255_preston-park-hotel-brighton.aspx" class="pr"><strong>£36.00</strong></a></td>
+				</tr>
+				<tr>
+					<td><a rel="nofollow" href="k16298328_newquay-hotels.aspx" class="non">Newquay</a></td>
+					<td width="35" class="deg"><img alt="" title="Patchy Rain" src="http://images.laterooms.com/NEWHOMPAGE/images/weather/scatrain.gif"/></td>
+					<td class="deg">11&deg;C</td>
+					<td class="deg"><small>165 Hotels</small></td>
+					<td style="text-align: right;"><small>doubles from</small> <a rel="nofollow" href="hotel-reservations/254648_auberge-asterisk-st-austell.aspx" class="pr"><strong>£40.00</strong></a></td>
 				</tr>
 			</table>
 		</div>
@@ -398,7 +399,7 @@ field2: <input name="field2" type="text" /> </br>
 			<div class="cl"></div>
 
 	<div class="grid_12">
-		<p class="esseeeowelinks"><a href="http://www.laterooms.com/r1_hotels-in-england.aspx" class="esseeeowelinkstitle" title="Hotels in England"><span class="esseeeowelinkstitle">Hotels in England:</span></a> <a href="http://www.laterooms.com/k16295585_london-hotels.aspx" title="Hotels in London">London Hotels</a> | <a href="http://www.laterooms.com/k16279504_bath-hotels.aspx" title="Hotels in Bath">Bath Hotels</a> | <a href="k16280256_birmingham-hotels.aspx" title="Hotels in Birmingham">Birmingham Hotels</a> | <a href="http://www.laterooms.com/k16280441_blackpool-hotels.aspx" title="Hotels in Blackpool">Blackpool Hotels</a> | <a href="k17183357_bournemouth-hotels.aspx" title="Hotels in Bournemouth">Bournemouth Hotels</a> | <a href="http://www.laterooms.com/k16281408_brighton-hotels.aspx" title="Hotels in Brighton">Brighton Hotels</a> | <a href="http://www.laterooms.com/k16281449_bristol-hotels.aspx">Bristol Hotels</a> | <a href="http://www.laterooms.com/k16282392_cambridge-hotels.aspx">Cambridge Hotels</a> | <a href="http://www.laterooms.com/k16283308_cheltenham-hotels.aspx">Cheltenham Hotels</a> | <a href="http://www.laterooms.com/k16283350_chester-hotels.aspx">Chester Hotels</a> | <a href="k16284641_coventry-hotels.aspx">Coventry Hotels</a> | <a href="k16287809_exeter-hotels.aspx">Exeter Hotels</a> | <a href="k16290884_harrogate-hotels.aspx">Harrogate Hotels</a> | <a href="k16843804_lake-district-hotels.aspx">Lake District Hotels</a> | <a href="k16294317_leeds-hotels.aspx">Leeds Hotels</a> | <a href="k16294936_liverpool-hotels.aspx">Liverpool Hotels</a> | <a href="k16296355_manchester-hotels.aspx">Manchester Hotels</a> | <a href="k16298218_newcastle-hotels.aspx">Newcastle Hotels</a> | <a href="k16298328_newquay-hotels.aspx">Newquay Hotels</a> | <a href="k16298835_norwich-hotels.aspx">Norwich Hotels</a> | <a href="k16298850_nottingham-hotels.aspx">Nottingham Hotels</a> | <a href="k16299423_oxford-hotels.aspx">Oxford Hotels</a> | <a href="k16300126_plymouth-hotels.aspx">Plymouth Hotels</a> | <a href="k16300940_reading-hotels.aspx">Reading Hotels</a> | <a href="k16302469_scarborough-hotels.aspx">Scarborough Hotels</a> | <a href="k16302933_sheffield-hotels.aspx">Sheffield Hotels</a> | <a href="k16304646_stratford-hotels.aspx">Stratford Hotels</a> | <a href="k16305980_torquay-hotels.aspx">Torquay Hotels</a> | <a href="k16308280_windermere-hotels.aspx">Windermere Hotels</a> | <a href="k16308894_york-hotels.aspx">York Hotels</a></p>
+		<p class="esseeeowelinks"><a href="r1_hotels-in-england.aspx" class="esseeeowelinkstitle" title="Hotels in England"><span class="esseeeowelinkstitle">Hotels in England:</span></a> <a href="k16295585_london-hotels.aspx" title="Hotels in London">London Hotels</a> | <a href="k16279504_bath-hotels.aspx" title="Hotels in Bath">Bath Hotels</a> | <a href="k16280256_birmingham-hotels.aspx" title="Hotels in Birmingham">Birmingham Hotels</a> | <a href="k16280441_blackpool-hotels.aspx" title="Hotels in Blackpool">Blackpool Hotels</a> | <a href="k17183357_bournemouth-hotels.aspx" title="Hotels in Bournemouth">Bournemouth Hotels</a> | <a href="k16281408_brighton-hotels.aspx" title="Hotels in Brighton">Brighton Hotels</a> | <a href="k16281449_bristol-hotels.aspx">Bristol Hotels</a> | <a href="k16282392_cambridge-hotels.aspx">Cambridge Hotels</a> | <a href="k16283308_cheltenham-hotels.aspx">Cheltenham Hotels</a> | <a href="k16283350_chester-hotels.aspx">Chester Hotels</a> | <a href="k16284641_coventry-hotels.aspx">Coventry Hotels</a> | <a href="k16287809_exeter-hotels.aspx">Exeter Hotels</a> | <a href="k16290884_harrogate-hotels.aspx">Harrogate Hotels</a> | <a href="k16843804_lake-district-hotels.aspx">Lake District Hotels</a> | <a href="k16294317_leeds-hotels.aspx">Leeds Hotels</a> | <a href="k16294936_liverpool-hotels.aspx">Liverpool Hotels</a> | <a href="k16296355_manchester-hotels.aspx">Manchester Hotels</a> | <a href="k16298218_newcastle-hotels.aspx">Newcastle Hotels</a> | <a href="k16298328_newquay-hotels.aspx">Newquay Hotels</a> | <a href="k16298835_norwich-hotels.aspx">Norwich Hotels</a> | <a href="k16298850_nottingham-hotels.aspx">Nottingham Hotels</a> | <a href="k16299423_oxford-hotels.aspx">Oxford Hotels</a> | <a href="k16300126_plymouth-hotels.aspx">Plymouth Hotels</a> | <a href="k16300940_reading-hotels.aspx">Reading Hotels</a> | <a href="k16302469_scarborough-hotels.aspx">Scarborough Hotels</a> | <a href="k16302933_sheffield-hotels.aspx">Sheffield Hotels</a> | <a href="k16304646_stratford-hotels.aspx">Stratford Hotels</a> | <a href="k16305980_torquay-hotels.aspx">Torquay Hotels</a> | <a href="k16308280_windermere-hotels.aspx">Windermere Hotels</a> | <a href="k16308894_york-hotels.aspx">York Hotels</a></p>
 		<p class="esseeeowelinks"><a href="r2_hotels-in-scotland.aspx" class="esseeeowelinkstitle"><span class="esseeeowelinkstitle">Hotels in Scotland:</span></a> <a href="k16287261_edinburgh-hotels.aspx">Edinburgh Hotels</a> | <a href="k16289408_glasgow-hotels.aspx">Glasgow Hotels</a> | <a href="k16277298_aberdeen-hotels.aspx">Aberdeen Hotels</a> | <a href="k16286614_dundee-hotels.aspx">Dundee Hotels</a> | <a href="k16299913_perth-hotels.aspx">Perth Hotels</a> | <a href="k16288614_fort-william-hotels.aspx">Fort William Hotels</a> | <a href="k16291473_highlands-hotels.aspx">Highlands Hotels</a></p> 
 		<p class="esseeeowelinks"><a href="r3_hotels-in-wales.aspx" class="esseeeowelinkstitle"><span class="esseeeowelinkstitle">Hotels in Wales:</span></a> <a href="k16282562_cardiff-hotels.aspx">Cardiff Hotels</a> | <a href="k16305002_swansea-hotels.aspx">Swansea Hotels</a> | <a href="k16298319_newport-hotels.aspx">Newport Hotels</a> | <a href="k16295060_llandudno-hotels.aspx">Llandudno Hotels</a></p>
 		<p class="esseeeowelinks"><a href="r5_hotels-in-republic-of-ireland.aspx" class="esseeeowelinkstitle"><span class="esseeeowelinkstitle">Hotels in Ireland:</span></a> <a href="k16837028_dublin-hotels.aspx">Dublin Hotels</a> | <a href="k16837518_cork-hotels.aspx">Cork Hotels</a> | <a href="k16837621_galway-hotels.aspx">Galway Hotels</a> | <a href="k16860014_limerick-hotels.aspx">Limerick Hotels</a> | <a rel="nofollow" href="k16837173_killarney-hotels.aspx">Killarney Hotels</a> | <a rel="nofollow" href="k16837622_waterford-hotels.aspx">Waterford Hotels</a> | <a rel="nofollow" href="k16837623_wexford-hotels.aspx">Wexford Hotels</a></p>
@@ -679,10 +680,10 @@ field2: <input name="field2" type="text" /> </br>
 
 </div>
 
-    <script language="javascript1.1" type="text/javascript" src="http://cdn.flashtalking.com/container/4416/4416.js?Homepage&cachebuster=634953132984165109"></script>
+    <script language="javascript1.1" type="text/javascript" src="http://cdn.flashtalking.com/container/4416/4416.js?Homepage&cachebuster=634953205906134660"></script>
 
 <script>
-	var res = [{"HotelId":92163,"Name":"Hillbark Hotel","Location":"Wirral","FriendlyName":"hotel-reviews/92163_hillbark-hotel-liverpool.aspx","Image":"http://static.laterooms.com/hotelphotos/laterooms/92163/gallery/hillbark-hotel-liverpool_150820120932397551.jpg","FormattedPrice":"£160.00"},{"HotelId":194185,"Name":"THE OLD STAGS HEAD (former pub)","Location":"TAUNTON","FriendlyName":"hotel-reviews/194185_the-old-stags-head-former-pub-taunton.aspx","Image":"http://static.laterooms.com/hotelphotos/laterooms/194185/gallery/the-old-stags-head-former-pub-taunton_180120131211250710.jpg","FormattedPrice":"£60.00"},{"HotelId":233418,"Name":"Source H&#244;tel","Location":"Paris","FriendlyName":"hotel-reviews/233418_source-hotel-paris.aspx","Image":"http://static.laterooms.com/hotelphotos/laterooms/233418/gallery/source-hotel-paris_250720112218134500.jpg","FormattedPrice":"£81.61"},{"HotelId":218427,"Name":"The Royal Oak Country Inn","Location":"GRANTHAM","FriendlyName":"hotel-reviews/218427_the-royal-oak-country-inn-grantham.aspx","Image":"http://static.laterooms.com/hotelphotos/laterooms/218427/gallery/the-royal-oak-country-inn-grantham_190820101518156886.jpg","FormattedPrice":"£39.00"},{"HotelId":154539,"Name":"The Groves","Location":"York","FriendlyName":"hotel-reviews/154539_the-groves-hotel-york.aspx","Image":"http://static.laterooms.com/hotelphotos/laterooms/154539/gallery/the-groves-hotel-york_061120092127148914.jpg","FormattedPrice":"£39.00"},{"HotelId":151646,"Name":"Worlds End Close Apartment","Location":"Edinburgh","FriendlyName":"hotel-reviews/151646_world-end-close-eh1-apartments-edinburgh.aspx","Image":"http://static.laterooms.com/hotelphotos/laterooms/151646/gallery/world-end-close-eh1-apartments-edinburgh_200120102258299768.jpg","FormattedPrice":"£95.00"},{"HotelId":179693,"Name":"Burjuman Arjaan by Rotana, Dubai","Location":"Dubai","FriendlyName":"hotel-reviews/179693_burjuman-rotana-suites-dubai.aspx","Image":"http://static.laterooms.com/hotelphotos/laterooms/179693/gallery/burjuman-rotana-suites-dubai_151220091359420873.jpg","FormattedPrice":"£118.65"},{"HotelId":90440,"Name":"The Queen's Head ","Location":"Troutbeck","FriendlyName":"hotel-reviews/90440_queens-head-hotel-troutbeck-nr-windermere.aspx","Image":"http://static.laterooms.com/hotelphotos/laterooms/90440/gallery/queens-head-hotel-troutbeck-nr-windermere_160920101327031165.jpg","FormattedPrice":"£59.00"}]
+	var res = [{"HotelId":233418,"Name":"Source H&#244;tel","Location":"Paris","FriendlyName":"hotel-reviews/233418_source-hotel-paris.aspx","Image":"http://static.laterooms.com/hotelphotos/laterooms/233418/gallery/source-hotel-paris_250720112218134500.jpg","FormattedPrice":"£81.61"},{"HotelId":218427,"Name":"The Royal Oak Country Inn","Location":"GRANTHAM","FriendlyName":"hotel-reviews/218427_the-royal-oak-country-inn-grantham.aspx","Image":"http://static.laterooms.com/hotelphotos/laterooms/218427/gallery/the-royal-oak-country-inn-grantham_190820101518156886.jpg","FormattedPrice":"£39.00"},{"HotelId":179693,"Name":"Burjuman Arjaan by Rotana, Dubai","Location":"Dubai","FriendlyName":"hotel-reviews/179693_burjuman-rotana-suites-dubai.aspx","Image":"http://static.laterooms.com/hotelphotos/laterooms/179693/gallery/burjuman-rotana-suites-dubai_151220091359420873.jpg","FormattedPrice":"£118.65"},{"HotelId":92163,"Name":"Hillbark Hotel","Location":"Wirral","FriendlyName":"hotel-reviews/92163_hillbark-hotel-liverpool.aspx","Image":"http://static.laterooms.com/hotelphotos/laterooms/92163/gallery/hillbark-hotel-liverpool_150820120932397551.jpg","FormattedPrice":"£160.00"},{"HotelId":194185,"Name":"THE OLD STAGS HEAD (former pub)","Location":"TAUNTON","FriendlyName":"hotel-reviews/194185_the-old-stags-head-former-pub-taunton.aspx","Image":"http://static.laterooms.com/hotelphotos/laterooms/194185/gallery/the-old-stags-head-former-pub-taunton_180120131211250710.jpg","FormattedPrice":"£60.00"},{"HotelId":90440,"Name":"The Queen's Head ","Location":"Troutbeck","FriendlyName":"hotel-reviews/90440_queens-head-hotel-troutbeck-nr-windermere.aspx","Image":"http://static.laterooms.com/hotelphotos/laterooms/90440/gallery/queens-head-hotel-troutbeck-nr-windermere_160920101327031165.jpg","FormattedPrice":"£59.00"},{"HotelId":154539,"Name":"The Groves","Location":"York","FriendlyName":"hotel-reviews/154539_the-groves-hotel-york.aspx","Image":"http://static.laterooms.com/hotelphotos/laterooms/154539/gallery/the-groves-hotel-york_061120092127148914.jpg","FormattedPrice":"£39.00"},{"HotelId":151646,"Name":"Worlds End Close Apartment","Location":"Edinburgh","FriendlyName":"hotel-reviews/151646_world-end-close-eh1-apartments-edinburgh.aspx","Image":"http://static.laterooms.com/hotelphotos/laterooms/151646/gallery/world-end-close-eh1-apartments-edinburgh_200120102258299768.jpg","FormattedPrice":"£95.00"}]
 </script>
  
 
@@ -742,10 +743,10 @@ effp();
 
 
 
-<!-- Greetings from GBTDLRWEWI003 -->
+<!-- Greetings from WEB116 -->
 </body>
 </html><!-- TLTracker:Landing -->
 
 
 	<!-- TLSessionTracker:NewSession -->
-<!-- Greetings from GBTDLRWEWI003 -->
+<!-- Greetings from WEB116 -->
