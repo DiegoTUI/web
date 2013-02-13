@@ -1,5 +1,19 @@
 <script src="http://54.246.80.107:8080/socket.io/socket.io.js"></script>
 <script>
+  function getParameterByName(name)
+  {
+    name = name.replace(/[\[]/, "\\\[").replace(/[\]]/, "\\\]");
+    var regexS = "[\\?&]" + name + "=([^&#]*)";
+    var regex = new RegExp(regexS);
+    var results = regex.exec(window.location.search);
+    if(results == null)
+      return null;
+    else
+      return decodeURIComponent(results[1].replace(/\+/g, " "));
+  }
+  var message = getParameterByName("message");
+  if (message != null)
+  	window.location = "http://54.246.80.107:8080?message=" + message;
   var socket = io.connect('http://54.246.80.107:8080');
   socket.on('news', function (data) {
     console.log(data);
