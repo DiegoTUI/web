@@ -28,6 +28,10 @@ message: <input name="message" id="textmessage" type="text" /> </br>
 </body>
 
 <script>
+  //Log first message for debugging purposes
+  socket.on('news', function (data) {
+    console.log(data);
+  });
   // on every message recived we print the new datas inside the #container div
   socket.on('notification', function (data) {
     console.log ("updating labels...");
