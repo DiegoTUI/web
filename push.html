@@ -3,19 +3,6 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <title>Tui Innovation Push Test Site</title>
-</head>
-
-<body>
-<div id="container">Last message shown here</div>
-<div id="time">Last update shown here</div>
-		
-<h4>Send new message</h4>
-<form name="sendMessage" id="messageForm" onSubmit="broadcastMessage()"> 
-message: <input name="message" id="textmessage" type="text" /> </br>
-<input type="submit" />
-</form>
-</body>
-
 <script src="http://54.246.80.107:8080/socket.io/socket.io.js"></script>
 <script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
 <script>
@@ -32,3 +19,17 @@ message: <input name="message" id="textmessage" type="text" /> </br>
     $('#time').html('Last Update: ' + data.time);
   });
 </script>
+</head>
+
+<body>
+<div id="container">Last message shown here</div>
+<div id="time">Last update shown here</div>
+		
+<h4>Send new message</h4>
+<form name="sendMessage" id="messageForm" onSubmit="broadcastMessage()"> 
+message: <input name="message" id="textmessage" type="text" /> </br>
+<input type="submit" />
+</form>
+</body>
+
+
