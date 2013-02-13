@@ -7,6 +7,7 @@
 <script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
 <script>
   var socket = io.connect('http://54.246.80.107:8080');
+  if (!window.console) console = {log: function() {}};
   function broadcastMessage()
   {
     console.log('Broadcasting message: ' + $('#textmessage').val());
