@@ -6,7 +6,7 @@ var Config = new function(){
 	//self reference
 	var self = this;
 	//Base URL
-	self.BASE_URL = "http://127.0.0.1:8000/api/";
+	self.BASE_URL = "http://54.246.80.10/api/";
 	//default location
 	self.LATITUDE_BASE = 39.475337;
 	self.LONGITUDE_BASE = 3.150673;
