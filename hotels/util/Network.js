@@ -14,7 +14,7 @@ var Network = new function(){
 		var xhr = Titanium.Network.createHTTPClient();
 		xhr.onload = function() {
 			Ti.API.info("Connection loaded. Callback.");
-			Ti.API.info("response: " + xhr.responseText);
+			//Ti.API.info("response: " + xhr.responseText);
 			var responseJSON = Util.isolateJSON(xhr.responseText);
 			callback(JSON.parse(responseJSON));
 		};
